@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="{{ .Site.Params.author }}">
     <base href="{{ .Site.BaseURL }}">
     <title>{{ .Title }}</title>
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta content="mtchavez,el-chavez,circleci gem,golang,ansible,mtchavez projects" name="keywords">
+    <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
+    <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}" property="og:description">
+    <meta content="/images/intro-bg.jpg" property="og:image">
+    <meta name="google-site-verification" content="NumfJOVPLhr7CP-nrCzKrkr6wdNtFW_4oyo3IagikeQ" />
+
+    <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="/images/favicon.ico">
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +36,8 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <style>
-    {{ printf "%v" (partial "template.css" . ) | safeCSS  }}
-  </style>
+{{ printf "%v" (partial "template.css" . ) | safeCSS  }}
+    </style>
 
-</head>
-<body>
+  </head>
+  <body>

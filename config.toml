@@ -1,3 +1,36 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-title = "My New Hugo Site"
+baseurl = "https://projects.el-chavez.me"
+title = "My Projects"
 languageCode = "en-us"
+
+[params]
+    description = "Things I have, or am, working on."
+    author_url = "https://el-chavez.me"
+    github_url = "https://github.com/mtchavez"
+    blog_url = "http://blog.el-chavez.me"
+    github_user_name = "mtchavez"
+    author = "Chavez"
+
+    first_color="#E3D9CD"
+    first_border_color="#e7e7e7"
+    first_text_color="#777"
+    first_header_text_color="#283446"
+
+    intro_color="#fff"
+    intro_text_color="#777"
+
+    second_color="#fff"
+    second_text_color="#777"
+    second_block_border="#269D93"
+    second_block_color="azure"
+
+    # header_color="#eee"
+    header_text_color="#E35B4E"
+
+    header_link_color="#eee"
+    header_link_hover_color="#3086D0"
+
+    navbar_color="#283446"
+    navbar_text_color="#eee"
+
+    footer_color="#283446"
+    footer_text_color="#eee"
