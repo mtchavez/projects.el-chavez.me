@@ -1,6 +1,7 @@
 baseurl = "https://projects.el-chavez.me"
 title = "My Projects"
 languageCode = "en-us"
+googleAnalytics = "UA-40822664-1"
 
 [params]
     description = "Things I have, or am, working on."
