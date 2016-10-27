@@ -1,4 +1,4 @@
-baseurl = "https://projects.el-chavez.me"
+baseurl = "http://projects.el-chavez.me"
 title = "My Projects"
 languageCode = "en-us"
 googleAnalytics = "UA-40822664-1"
