@@ -6,7 +6,7 @@ keywords:
 comments: false
 title: Ansible
 description: My Ansible projects
-weight: 3
+weight: 4
 ---
 
 #### [InfluxDB Role][ansibleinflux]
