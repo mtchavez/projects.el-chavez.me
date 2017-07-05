@@ -9,6 +9,10 @@ description: My Golang projects
 weight: 2
 ---
 
+#### [Cuckoo Filter][cuckoo]
+
+> Cuckoo Filter sketching algorithm for approximations of set membership.
+
 #### [Hyper Log Log][hll]
 
 > Hyper Log Log sketching algorithm written in Golang.
@@ -48,6 +52,7 @@ weight: 2
 > Authy API for Developers to add two factor authentication to your apps.
 > This package implements the API endpoints found [in the Authy docs][authydocs].
 
+[cuckoo]: https://github.com/mtchavez/cuckoo
 [hll]: https://github.com/mtchavez/go-hll
 [gostat]: https://github.com/mtchavez/go-statsite
 [statsite]: https://github.com/armon/statsite
